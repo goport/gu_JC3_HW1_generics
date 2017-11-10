@@ -1,12 +1,10 @@
-public class changeElements<T> {
+public class ChangeElements<T> {
 
+    private T bufElement;
 
-    public T obj;
-    private T bufObj;
-
-    public void change(changeElements<T> another){
-        bufObj=this.obj;
-        this.obj=another.obj;
-        another.obj=bufObj;
+    public void change(T[] element,int index1, int index2){
+        bufElement=element[index1];
+        element[index1]=element[index2];
+        element[index2]=bufElement;
     }
 }
