@@ -1,7 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-
-import static java.util.Arrays.asList;
 
 public class Main {
 
@@ -34,9 +31,6 @@ public class Main {
 
         System.out.println(box1.getBoxWeight());
         System.out.println(box3.getBoxWeight());
-
-
-
 
     }
 
